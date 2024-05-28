@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1635AA62C05AAB600D27013 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1635AA52C05AAB600D27013 /* MapView.swift */; };
+		F1702C4A2BF66E64006BE6C2 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1702C492BF66E64006BE6C2 /* extensions.swift */; };
+		F173E4022BF44C9E008A2A1B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F173E4012BF44C9E008A2A1B /* FirebaseAuth */; };
+		F173E4042BF44CA5008A2A1B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F173E4032BF44CA5008A2A1B /* FirebaseFirestore */; };
+		F173E4062BF44CAD008A2A1B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F173E4052BF44CAD008A2A1B /* FirebaseFirestoreSwift */; };
+		F173E40C2BF451CA008A2A1B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E40B2BF451CA008A2A1B /* LoginView.swift */; };
+		F173E40E2BF45208008A2A1B /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E40D2BF45208008A2A1B /* NewUserView.swift */; };
+		F173E4102BF4522B008A2A1B /* ForumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E40F2BF4522B008A2A1B /* ForumView.swift */; };
+		F173E4122BF4523F008A2A1B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E4112BF4523F008A2A1B /* User.swift */; };
+		F173E4142BF4524A008A2A1B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E4132BF4524A008A2A1B /* Item.swift */; };
+		F173E4162BF452BB008A2A1B /* MainViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E4152BF452BB008A2A1B /* MainViewVM.swift */; };
+		F173E4182BF452C9008A2A1B /* LoginViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E4172BF452C9008A2A1B /* LoginViewVM.swift */; };
+		F173E41A2BF452D7008A2A1B /* NewUserViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E4192BF452D7008A2A1B /* NewUserViewVM.swift */; };
+		F173E41C2BF452E6008A2A1B /* ForumViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E41B2BF452E6008A2A1B /* ForumViewVM.swift */; };
+		F173E41E2BF455B3008A2A1B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173E41D2BF455B3008A2A1B /* HeaderView.swift */; };
+		F18A7D3E2BF43C7000D2C277 /* LOFO_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D3D2BF43C7000D2C277 /* LOFO_APPApp.swift */; };
+		F18A7D402BF43C7000D2C277 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D3F2BF43C7000D2C277 /* MainView.swift */; };
+		F18A7D422BF43C7100D2C277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18A7D412BF43C7100D2C277 /* Assets.xcassets */; };
+		F18A7D452BF43C7100D2C277 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18A7D442BF43C7100D2C277 /* Preview Assets.xcassets */; };
+		F18A7D4F2BF43C7100D2C277 /* LOFO_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D4E2BF43C7100D2C277 /* LOFO_APPTests.swift */; };
+		F18A7D592BF43C7100D2C277 /* LOFO_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D582BF43C7100D2C277 /* LOFO_APPUITests.swift */; };
+		F18A7D5B2BF43C7100D2C277 /* LOFO_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D5A2BF43C7100D2C277 /* LOFO_APPUITestsLaunchTests.swift */; };
+		F18A7D682BF441F200D2C277 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F18A7D672BF441F200D2C277 /* GoogleService-Info.plist */; };
+		F1A45F4D2BF5B43300549B6B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A45F4C2BF5B43300549B6B /* ButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18A7D4B2BF43C7100D2C277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18A7D322BF43C7000D2C277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18A7D392BF43C7000D2C277;
+			remoteInfo = LOFO_APP;
+		};
+		F18A7D552BF43C7100D2C277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18A7D322BF43C7000D2C277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18A7D392BF43C7000D2C277;
+			remoteInfo = LOFO_APP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1635AA52C05AAB600D27013 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F1702C492BF66E64006BE6C2 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		F173E40B2BF451CA008A2A1B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F173E40D2BF45208008A2A1B /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
+		F173E40F2BF4522B008A2A1B /* ForumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumView.swift; sourceTree = "<group>"; };
+		F173E4112BF4523F008A2A1B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F173E4132BF4524A008A2A1B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F173E4152BF452BB008A2A1B /* MainViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewVM.swift; sourceTree = "<group>"; };
+		F173E4172BF452C9008A2A1B /* LoginViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewVM.swift; sourceTree = "<group>"; };
+		F173E4192BF452D7008A2A1B /* NewUserViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewVM.swift; sourceTree = "<group>"; };
+		F173E41B2BF452E6008A2A1B /* ForumViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewVM.swift; sourceTree = "<group>"; };
+		F173E41D2BF455B3008A2A1B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F18A7D3A2BF43C7000D2C277 /* LOFO_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOFO_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18A7D3D2BF43C7000D2C277 /* LOFO_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOFO_APPApp.swift; sourceTree = "<group>"; };
+		F18A7D3F2BF43C7000D2C277 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F18A7D412BF43C7100D2C277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F18A7D442BF43C7100D2C277 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F18A7D4A2BF43C7100D2C277 /* LOFO_APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOFO_APPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18A7D4E2BF43C7100D2C277 /* LOFO_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOFO_APPTests.swift; sourceTree = "<group>"; };
+		F18A7D542BF43C7100D2C277 /* LOFO_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOFO_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18A7D582BF43C7100D2C277 /* LOFO_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOFO_APPUITests.swift; sourceTree = "<group>"; };
+		F18A7D5A2BF43C7100D2C277 /* LOFO_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOFO_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F18A7D672BF441F200D2C277 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1A45F4C2BF5B43300549B6B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18A7D372BF43C7000D2C277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173E4022BF44C9E008A2A1B /* FirebaseAuth in Frameworks */,
+				F173E4042BF44CA5008A2A1B /* FirebaseFirestore in Frameworks */,
+				F173E4062BF44CAD008A2A1B /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D472BF43C7100D2C277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D512BF43C7100D2C277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F173E4002BF44C9E008A2A1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F173E4072BF44DED008A2A1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D3F2BF43C7000D2C277 /* MainView.swift */,
+				F173E40B2BF451CA008A2A1B /* LoginView.swift */,
+				F173E40D2BF45208008A2A1B /* NewUserView.swift */,
+				F173E40F2BF4522B008A2A1B /* ForumView.swift */,
+				F173E41D2BF455B3008A2A1B /* HeaderView.swift */,
+				F1A45F4C2BF5B43300549B6B /* ButtonView.swift */,
+				F1635AA52C05AAB600D27013 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F173E4082BF44DF8008A2A1B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F173E4152BF452BB008A2A1B /* MainViewVM.swift */,
+				F173E4172BF452C9008A2A1B /* LoginViewVM.swift */,
+				F173E4192BF452D7008A2A1B /* NewUserViewVM.swift */,
+				F173E41B2BF452E6008A2A1B /* ForumViewVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F173E4092BF44E12008A2A1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F173E4112BF4523F008A2A1B /* User.swift */,
+				F173E4132BF4524A008A2A1B /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F173E40A2BF44E2A008A2A1B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D412BF43C7100D2C277 /* Assets.xcassets */,
+				F18A7D672BF441F200D2C277 /* GoogleService-Info.plist */,
+				F18A7D3D2BF43C7000D2C277 /* LOFO_APPApp.swift */,
+				F1702C492BF66E64006BE6C2 /* extensions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F18A7D312BF43C7000D2C277 = {
+			isa = PBXGroup;
+			children = (
+				F18A7D3C2BF43C7000D2C277 /* LOFO_APP */,
+				F18A7D4D2BF43C7100D2C277 /* LOFO_APPTests */,
+				F18A7D572BF43C7100D2C277 /* LOFO_APPUITests */,
+				F18A7D3B2BF43C7000D2C277 /* Products */,
+				F173E4002BF44C9E008A2A1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F18A7D3B2BF43C7000D2C277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D3A2BF43C7000D2C277 /* LOFO_APP.app */,
+				F18A7D4A2BF43C7100D2C277 /* LOFO_APPTests.xctest */,
+				F18A7D542BF43C7100D2C277 /* LOFO_APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18A7D3C2BF43C7000D2C277 /* LOFO_APP */ = {
+			isa = PBXGroup;
+			children = (
+				F173E40A2BF44E2A008A2A1B /* Other */,
+				F173E4092BF44E12008A2A1B /* Models */,
+				F173E4082BF44DF8008A2A1B /* ViewModels */,
+				F173E4072BF44DED008A2A1B /* Views */,
+				F18A7D432BF43C7100D2C277 /* Preview Content */,
+			);
+			path = LOFO_APP;
+			sourceTree = "<group>";
+		};
+		F18A7D432BF43C7100D2C277 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D442BF43C7100D2C277 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F18A7D4D2BF43C7100D2C277 /* LOFO_APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D4E2BF43C7100D2C277 /* LOFO_APPTests.swift */,
+			);
+			path = LOFO_APPTests;
+			sourceTree = "<group>";
+		};
+		F18A7D572BF43C7100D2C277 /* LOFO_APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D582BF43C7100D2C277 /* LOFO_APPUITests.swift */,
+				F18A7D5A2BF43C7100D2C277 /* LOFO_APPUITestsLaunchTests.swift */,
+			);
+			path = LOFO_APPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18A7D392BF43C7000D2C277 /* LOFO_APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18A7D5E2BF43C7100D2C277 /* Build configuration list for PBXNativeTarget "LOFO_APP" */;
+			buildPhases = (
+				F18A7D362BF43C7000D2C277 /* Sources */,
+				F18A7D372BF43C7000D2C277 /* Frameworks */,
+				F18A7D382BF43C7000D2C277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOFO_APP;
+			packageProductDependencies = (
+				F173E4012BF44C9E008A2A1B /* FirebaseAuth */,
+				F173E4032BF44CA5008A2A1B /* FirebaseFirestore */,
+				F173E4052BF44CAD008A2A1B /* FirebaseFirestoreSwift */,
+			);
+			productName = LOFO_APP;
+			productReference = F18A7D3A2BF43C7000D2C277 /* LOFO_APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18A7D492BF43C7100D2C277 /* LOFO_APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18A7D612BF43C7100D2C277 /* Build configuration list for PBXNativeTarget "LOFO_APPTests" */;
+			buildPhases = (
+				F18A7D462BF43C7100D2C277 /* Sources */,
+				F18A7D472BF43C7100D2C277 /* Frameworks */,
+				F18A7D482BF43C7100D2C277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18A7D4C2BF43C7100D2C277 /* PBXTargetDependency */,
+			);
+			name = LOFO_APPTests;
+			productName = LOFO_APPTests;
+			productReference = F18A7D4A2BF43C7100D2C277 /* LOFO_APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F18A7D532BF43C7100D2C277 /* LOFO_APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18A7D642BF43C7100D2C277 /* Build configuration list for PBXNativeTarget "LOFO_APPUITests" */;
+			buildPhases = (
+				F18A7D502BF43C7100D2C277 /* Sources */,
+				F18A7D512BF43C7100D2C277 /* Frameworks */,
+				F18A7D522BF43C7100D2C277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18A7D562BF43C7100D2C277 /* PBXTargetDependency */,
+			);
+			name = LOFO_APPUITests;
+			productName = LOFO_APPUITests;
+			productReference = F18A7D542BF43C7100D2C277 /* LOFO_APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18A7D322BF43C7000D2C277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F18A7D392BF43C7000D2C277 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F18A7D492BF43C7100D2C277 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F18A7D392BF43C7000D2C277;
+					};
+					F18A7D532BF43C7100D2C277 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F18A7D392BF43C7000D2C277;
+					};
+				};
+			};
+			buildConfigurationList = F18A7D352BF43C7000D2C277 /* Build configuration list for PBXProject "LOFO_APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18A7D312BF43C7000D2C277;
+			packageReferences = (
+				F158D4632BF44580007545F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F18A7D3B2BF43C7000D2C277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18A7D392BF43C7000D2C277 /* LOFO_APP */,
+				F18A7D492BF43C7100D2C277 /* LOFO_APPTests */,
+				F18A7D532BF43C7100D2C277 /* LOFO_APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18A7D382BF43C7000D2C277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18A7D452BF43C7100D2C277 /* Preview Assets.xcassets in Resources */,
+				F18A7D682BF441F200D2C277 /* GoogleService-Info.plist in Resources */,
+				F18A7D422BF43C7100D2C277 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D482BF43C7100D2C277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D522BF43C7100D2C277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18A7D362BF43C7000D2C277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173E4182BF452C9008A2A1B /* LoginViewVM.swift in Sources */,
+				F173E40E2BF45208008A2A1B /* NewUserView.swift in Sources */,
+				F173E41C2BF452E6008A2A1B /* ForumViewVM.swift in Sources */,
+				F1702C4A2BF66E64006BE6C2 /* extensions.swift in Sources */,
+				F173E40C2BF451CA008A2A1B /* LoginView.swift in Sources */,
+				F173E4122BF4523F008A2A1B /* User.swift in Sources */,
+				F173E4102BF4522B008A2A1B /* ForumView.swift in Sources */,
+				F1635AA62C05AAB600D27013 /* MapView.swift in Sources */,
+				F173E41A2BF452D7008A2A1B /* NewUserViewVM.swift in Sources */,
+				F173E41E2BF455B3008A2A1B /* HeaderView.swift in Sources */,
+				F173E4142BF4524A008A2A1B /* Item.swift in Sources */,
+				F1A45F4D2BF5B43300549B6B /* ButtonView.swift in Sources */,
+				F18A7D402BF43C7000D2C277 /* MainView.swift in Sources */,
+				F173E4162BF452BB008A2A1B /* MainViewVM.swift in Sources */,
+				F18A7D3E2BF43C7000D2C277 /* LOFO_APPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D462BF43C7100D2C277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18A7D4F2BF43C7100D2C277 /* LOFO_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D502BF43C7100D2C277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18A7D5B2BF43C7100D2C277 /* LOFO_APPUITestsLaunchTests.swift in Sources */,
+				F18A7D592BF43C7100D2C277 /* LOFO_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18A7D4C2BF43C7100D2C277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18A7D392BF43C7000D2C277 /* LOFO_APP */;
+			targetProxy = F18A7D4B2BF43C7100D2C277 /* PBXContainerItemProxy */;
+		};
+		F18A7D562BF43C7100D2C277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18A7D392BF43C7000D2C277 /* LOFO_APP */;
+			targetProxy = F18A7D552BF43C7100D2C277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F18A7D5C2BF43C7100D2C277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F18A7D5D2BF43C7100D2C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18A7D5F2BF43C7100D2C277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LOFO_APP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.personalproject.LOFO-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F18A7D602BF43C7100D2C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LOFO_APP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.personalproject.LOFO-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F18A7D622BF43C7100D2C277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.personalproject.LOFO-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOFO_APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LOFO_APP";
+			};
+			name = Debug;
+		};
+		F18A7D632BF43C7100D2C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.personalproject.LOFO-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOFO_APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LOFO_APP";
+			};
+			name = Release;
+		};
+		F18A7D652BF43C7100D2C277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.personalproject.LOFO-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LOFO_APP;
+			};
+			name = Debug;
+		};
+		F18A7D662BF43C7100D2C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.personalproject.LOFO-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LOFO_APP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18A7D352BF43C7000D2C277 /* Build configuration list for PBXProject "LOFO_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18A7D5C2BF43C7100D2C277 /* Debug */,
+				F18A7D5D2BF43C7100D2C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18A7D5E2BF43C7100D2C277 /* Build configuration list for PBXNativeTarget "LOFO_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18A7D5F2BF43C7100D2C277 /* Debug */,
+				F18A7D602BF43C7100D2C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18A7D612BF43C7100D2C277 /* Build configuration list for PBXNativeTarget "LOFO_APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18A7D622BF43C7100D2C277 /* Debug */,
+				F18A7D632BF43C7100D2C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18A7D642BF43C7100D2C277 /* Build configuration list for PBXNativeTarget "LOFO_APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18A7D652BF43C7100D2C277 /* Debug */,
+				F18A7D662BF43C7100D2C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F158D4632BF44580007545F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F173E4012BF44C9E008A2A1B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F158D4632BF44580007545F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F173E4032BF44CA5008A2A1B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F158D4632BF44580007545F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F173E4052BF44CAD008A2A1B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F158D4632BF44580007545F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F18A7D322BF43C7000D2C277 /* Project object */;
+}
