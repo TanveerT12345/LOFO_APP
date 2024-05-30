@@ -15,7 +15,7 @@ struct LoginView: View {
         NavigationView {
             VStack {
                 // Header
-                HeaderView(title: "Lofo", subtitle: "Find Missing Things", angle: 15, background: .mint)
+                HeaderView(title: "LoFo", subtitle: "Find Missing Things", angle: 15, background: .mint)
                 
                 // Login Form
                 Form {
