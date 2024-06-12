@@ -18,7 +18,7 @@ class LoginViewVM: ObservableObject {
     func login() {
         guard validate() else {
             return
-    }
+        }
         
         // try log in
         Auth.auth().signIn(withEmail: email, password: password)

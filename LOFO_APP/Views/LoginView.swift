@@ -33,17 +33,25 @@ struct LoginView: View {
                     
                     ButtonView(title: "Log In", background: .mint) {
                         viewModel.login()
-                        
                     }
+                    .foregroundStyle(Color.black)
                     .padding()
+                    
                 }
+    
                 .offset(y:-50)
                 // Create Account
                 VStack {
                     Text("Dont Have An Account?")
-                    NavigationLink("Create An Account", destination: NewUserView())
+                    NavigationLink("Create An Account", 
+                                   destination: NewUserView())
+                    .padding(.bottom, 10)
+                    
+                    Text("Forgot Your Password?")
+                    NavigationLink("Reset Password",
+                                   destination: ForgotPasswordView())
                 }
-                .padding(.bottom, 50)
+                .padding(.bottom, 10)
                 Spacer()
             }
         }

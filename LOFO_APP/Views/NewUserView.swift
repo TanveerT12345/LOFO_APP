@@ -32,6 +32,7 @@ struct NewUserView: View {
                     viewModel.register()
                 }
                 .padding()
+                .foregroundColor(.black)
             }
             .offset(y: -50)
             Spacer()

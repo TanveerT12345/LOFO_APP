@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1635AA62C05AAB600D27013 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1635AA52C05AAB600D27013 /* MapView.swift */; };
 		F1702C4A2BF66E64006BE6C2 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1702C492BF66E64006BE6C2 /* extensions.swift */; };
 		F173E4022BF44C9E008A2A1B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F173E4012BF44C9E008A2A1B /* FirebaseAuth */; };
 		F173E4042BF44CA5008A2A1B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F173E4032BF44CA5008A2A1B /* FirebaseFirestore */; };
@@ -30,6 +29,12 @@
 		F18A7D592BF43C7100D2C277 /* LOFO_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D582BF43C7100D2C277 /* LOFO_APPUITests.swift */; };
 		F18A7D5B2BF43C7100D2C277 /* LOFO_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D5A2BF43C7100D2C277 /* LOFO_APPUITestsLaunchTests.swift */; };
 		F18A7D682BF441F200D2C277 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F18A7D672BF441F200D2C277 /* GoogleService-Info.plist */; };
+		F18E11F32C1912BD0094732E /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E11F22C1912BD0094732E /* ForgotPasswordView.swift */; };
+		F18E11F52C1916740094732E /* ForgotPasswordViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E11F42C1916740094732E /* ForgotPasswordViewVM.swift */; };
+		F18E11F72C1942740094732E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E11F62C1942740094732E /* ProfileView.swift */; };
+		F18E11F92C1944DD0094732E /* ProfileViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E11F82C1944DD0094732E /* ProfileViewVM.swift */; };
+		F191CBE02C0D5986000E1B0A /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191CBDF2C0D5986000E1B0A /* MapViewRepresentable.swift */; };
+		F191CBE22C0D5C07000E1B0A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191CBE12C0D5C07000E1B0A /* LocationManager.swift */; };
 		F1A45F4D2BF5B43300549B6B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A45F4C2BF5B43300549B6B /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +56,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F1635AA52C05AAB600D27013 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F1702C492BF66E64006BE6C2 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		F173E40B2BF451CA008A2A1B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F173E40D2BF45208008A2A1B /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,12 @@
 		F18A7D582BF43C7100D2C277 /* LOFO_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOFO_APPUITests.swift; sourceTree = "<group>"; };
 		F18A7D5A2BF43C7100D2C277 /* LOFO_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOFO_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F18A7D672BF441F200D2C277 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F18E11F22C1912BD0094732E /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		F18E11F42C1916740094732E /* ForgotPasswordViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewVM.swift; sourceTree = "<group>"; };
+		F18E11F62C1942740094732E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F18E11F82C1944DD0094732E /* ProfileViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewVM.swift; sourceTree = "<group>"; };
+		F191CBDF2C0D5986000E1B0A /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+		F191CBE12C0D5C07000E1B0A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F1A45F4C2BF5B43300549B6B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +131,10 @@
 				F173E40F2BF4522B008A2A1B /* ForumView.swift */,
 				F173E41D2BF455B3008A2A1B /* HeaderView.swift */,
 				F1A45F4C2BF5B43300549B6B /* ButtonView.swift */,
-				F1635AA52C05AAB600D27013 /* MapView.swift */,
+				F191CBDF2C0D5986000E1B0A /* MapViewRepresentable.swift */,
+				F191CBE12C0D5C07000E1B0A /* LocationManager.swift */,
+				F18E11F22C1912BD0094732E /* ForgotPasswordView.swift */,
+				F18E11F62C1942740094732E /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +146,8 @@
 				F173E4172BF452C9008A2A1B /* LoginViewVM.swift */,
 				F173E4192BF452D7008A2A1B /* NewUserViewVM.swift */,
 				F173E41B2BF452E6008A2A1B /* ForumViewVM.swift */,
+				F18E11F42C1916740094732E /* ForgotPasswordViewVM.swift */,
+				F18E11F82C1944DD0094732E /* ProfileViewVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -355,18 +370,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F173E4182BF452C9008A2A1B /* LoginViewVM.swift in Sources */,
+				F18E11F92C1944DD0094732E /* ProfileViewVM.swift in Sources */,
+				F191CBE22C0D5C07000E1B0A /* LocationManager.swift in Sources */,
 				F173E40E2BF45208008A2A1B /* NewUserView.swift in Sources */,
+				F18E11F32C1912BD0094732E /* ForgotPasswordView.swift in Sources */,
 				F173E41C2BF452E6008A2A1B /* ForumViewVM.swift in Sources */,
 				F1702C4A2BF66E64006BE6C2 /* extensions.swift in Sources */,
 				F173E40C2BF451CA008A2A1B /* LoginView.swift in Sources */,
 				F173E4122BF4523F008A2A1B /* User.swift in Sources */,
 				F173E4102BF4522B008A2A1B /* ForumView.swift in Sources */,
-				F1635AA62C05AAB600D27013 /* MapView.swift in Sources */,
+				F18E11F52C1916740094732E /* ForgotPasswordViewVM.swift in Sources */,
 				F173E41A2BF452D7008A2A1B /* NewUserViewVM.swift in Sources */,
 				F173E41E2BF455B3008A2A1B /* HeaderView.swift in Sources */,
+				F191CBE02C0D5986000E1B0A /* MapViewRepresentable.swift in Sources */,
 				F173E4142BF4524A008A2A1B /* Item.swift in Sources */,
 				F1A45F4D2BF5B43300549B6B /* ButtonView.swift in Sources */,
 				F18A7D402BF43C7000D2C277 /* MainView.swift in Sources */,
+				F18E11F72C1942740094732E /* ProfileView.swift in Sources */,
 				F173E4162BF452BB008A2A1B /* MainViewVM.swift in Sources */,
 				F18A7D3E2BF43C7000D2C277 /* LOFO_APPApp.swift in Sources */,
 			);

@@ -19,9 +19,14 @@ struct MainView: View {
                         Label("Forum", systemImage: "quote.bubble.fill")
                     }
                 
-                MapView()
+                MapViewRepresentable()
                     .tabItem {
                         Label("Map", systemImage: "map.fill")
+                    }
+                    .edgesIgnoringSafeArea(.top)
+                ProfileView()
+                    .tabItem {
+                        Label("Profile", systemImage: "person.crop.circle")
                     }
             }
         } else {

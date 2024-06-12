@@ -8,9 +8,31 @@
 import SwiftUI
 
 struct ForgotPasswordView: View {
+    
+    @StateObject var viewModel = ForgotPasswordViewVM()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            // Header
+            HeaderView(title: "Password Reset", subtitle: "", angle: 0, background: .gray)
+            
+            
+            Form {
+                TextField("Email Address", text: $viewModel.email)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .autocapitalization(.none)
+                    .autocorrectionDisabled()
+                
+                ButtonView(title: "Send Email", background: .gray) { //Attempt password reset
+                    viewModel.resetPassword()
+                }
+                .padding()
+                .foregroundStyle(Color.black)
+            }
+            .offset(y: -50)
+        }
     }
+    
 }
 
 #Preview {

@@ -21,7 +21,6 @@ struct ButtonView: View {
                     .foregroundColor(background)
                 
                 Text(title)
-                    .foregroundStyle(Color.black)
                     .bold()
             }
         }
