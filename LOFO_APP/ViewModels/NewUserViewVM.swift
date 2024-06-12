@@ -13,6 +13,7 @@ class NewUserViewVM: ObservableObject {
     @Published var email = ""
     @Published var password = ""
     @Published var name = ""
+    @Published var errorMessage = ""
     
     init() {}
     
@@ -43,14 +44,17 @@ class NewUserViewVM: ObservableObject {
         guard !name.trimmingCharacters(in: .whitespaces).isEmpty, 
               !email.trimmingCharacters(in: .whitespaces).isEmpty,
               !password.trimmingCharacters(in: .whitespaces).isEmpty else {
+            errorMessage = "Please fill in all fields."
             return false
         }
         
         guard email.contains("@") && email.contains(".") else {
+            errorMessage = "Please enter valid email."
             return false
         }
         
         guard password.count >= 6 else {
+            errorMessage = "Please enter password with at least 6 characters."
             return false
         }
         return true

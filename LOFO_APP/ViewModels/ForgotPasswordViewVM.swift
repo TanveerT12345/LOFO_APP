@@ -9,11 +9,10 @@ import Foundation
 import FirebaseAuth
 
 class ForgotPasswordViewVM: ObservableObject {
-    
-    init() {}
-    
     @Published var email = ""
     @Published var errorMessage = ""
+    
+    init() {}
     
     func resetPassword() {
         guard validate() else {

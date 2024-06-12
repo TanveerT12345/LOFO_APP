@@ -14,10 +14,16 @@ struct NewUserView: View {
     var body: some View {
         VStack {
             // Header
-            HeaderView(title: "Register", subtitle: "", angle: -15, background: .orange)
+            HeaderView(title: "Register", subtitle: "Make Your Account", angle: -15, background: .orange)
             
             
             Form {
+                
+                if !viewModel.errorMessage.isEmpty {
+                    Text(viewModel.errorMessage)
+                        .foregroundStyle(Color.red)
+                }
+                
                 TextField("Full Name", text: $viewModel.name)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .autocorrectionDisabled()
