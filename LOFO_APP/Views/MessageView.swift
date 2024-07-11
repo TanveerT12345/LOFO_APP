@@ -1,18 +1,18 @@
 //
-//  ForumView.swift
+//  MessageView.swift
 //  LOFO_APP
 //
-//  Created by tsthethi on 7/11/24.
+//  Created by tsthethi on 6/14/24.
 //
 
 import SwiftUI
 
-struct ForumView: View {
+struct MessageView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ForumView()
+    MessageView()
 }
